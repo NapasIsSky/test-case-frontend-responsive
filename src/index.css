@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --grey: #f5f4f9;
+  --purple: #5e3db3;
+  --dark-purple: #090c35;
+
+  --text-grey-1: #e7e7e7;
+  --text-grey-2: #c2c2c2;
+}
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.grey-1-text {
+  color: var(--text-grey-1);
+}
+
+.grey-2-text {
+  color: var(--text-grey-2);
+}
+
+.grey-bg {
+  background-color: var(--grey);
+}
+
+.purple-bg {
+  background-color: var(--purple);
+}
+
+.dark-purple-bg {
+  background-color: var(--dark-purple);
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.grow-2 {
+  flex-grow: 2;
+}
+
+.grow-3 {
+  flex-grow: 3;
+}
