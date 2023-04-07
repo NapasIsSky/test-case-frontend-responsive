@@ -1,0 +1,15 @@
+.title-section {
+  flex-grow: 7;
+}
+
+@media screen and (min-width: 381px) and (max-width: 768px) {
+  .title-section {
+    flex-grow: 2;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .title-section {
+    flex-grow: 3;
+  }
+}
