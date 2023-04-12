@@ -10,7 +10,7 @@ import Carousel from "./components/carousel/Carousel";
 function App() {
   return (
     <div className="flex flex-col overflow-x-hidden overflow-y-auto">
-      <div className="flex flex-col">
+      <div className="flex flex-col relative">
         <div className="flex title-section md:items-end h-screen-50 md:h-full">
           <div className="flex md:flex-2 lg:flex-1 xl:flex-2" />
           <h1 className="pl-4 grey-1-text flex flex-col flex-1 sm:flex-2 md:flex-2 xl:flex-4 ">
@@ -66,7 +66,7 @@ function App() {
         </div>
       </div>
 
-      <div className="flex flex-col">
+      <div className="flex flex-col relative">
         <div className="flex title-section md:items-end h-screen-50 md:h-full">
           <div className="flex lg:flex-1 xl:flex-1" />
           <h1 className="pl-4 md:pl-10 grey-1-text flex flex-3 lg:flex-2 xl:flex-3">PLAYERS</h1>
@@ -76,7 +76,7 @@ function App() {
         <img
           src="/images/player.png"
           alt="basketball-player"
-          className="w-5/6 lg:w-3/6 2xl:w-1/3 bg-cover z-10 absolute pt-16 md:pt-0 right-10 md:-right-36 lg:-right-28 xl:right-20  "
+          className="w-5/6 lg:w-3/6 2xl:w-1/3 bg-cover z-10 absolute pt-16 md:pt-0 right-10 md:-right-36 lg:-right-28 xl:right-20"
         />
 
         <div className="md:hidden h-screen-50">
