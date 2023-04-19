@@ -16,7 +16,7 @@ const Card: React.FC<ICard> = (props) => {
   const isNormalContrast = contrast && !theme;
 
   return (
-    <div className={`flex flex-col ${className} ${contrast ? "text-white" : ""}`}>
+    <div className={`flex flex-col justify-center ${className} ${contrast ? "text-white" : ""}`}>
       <div className="flex items-center">
         <div className="mr-4">
           <p
