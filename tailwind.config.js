@@ -13,9 +13,7 @@ module.exports = {
         '6': '6 6 0%'
       },
       height: {
-        'screen-50': '50vh',
-        'screen-80': '80vh',
-        'screen-90': '90vh'
+        'screen-width': '100vw',
       },
       flexGrow: {
         '1': 1,
